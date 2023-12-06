@@ -1,4 +1,3 @@
-
 package com.example.inventory
 
 import android.os.Bundle
@@ -10,11 +9,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.inventory.databinding.ItemListFragmentBinding
 
-/**
- * Main fragment displaying details for all items in the database.
- */
 class ItemListFragment : Fragment() {
-
     private var _binding: ItemListFragmentBinding? = null
     private val binding get() = _binding!!
 
